@@ -41,20 +41,27 @@ window.addEventListener('scroll', () => {
 // ── Hamburger Menu ──
 const hamburger   = document.getElementById('hamburger');
 const mobileMenu  = document.getElementById('mobile-menu');
+const menuOverlay = document.getElementById('menu-overlay');
+
+function closeMenu() {
+  mobileMenu.classList.remove('open');
+  hamburger.classList.remove('open');
+  hamburger.setAttribute('aria-expanded', false);
+  menuOverlay.classList.remove('active');
+}
 
 hamburger.addEventListener('click', () => {
   const isOpen = mobileMenu.classList.toggle('open');
   hamburger.classList.toggle('open', isOpen);
   hamburger.setAttribute('aria-expanded', isOpen);
+  menuOverlay.classList.toggle('active', isOpen);
 });
+
+menuOverlay.addEventListener('click', closeMenu);
 
 // Close mobile menu when a link is clicked
 mobileMenu.querySelectorAll('a').forEach(link => {
-  link.addEventListener('click', () => {
-    mobileMenu.classList.remove('open');
-    hamburger.classList.remove('open');
-    hamburger.setAttribute('aria-expanded', false);
-  });
+  link.addEventListener('click', closeMenu);
 });
 
 

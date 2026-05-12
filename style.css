@@ -151,7 +151,8 @@ h1, h2, h3, h4, h5 { font-family: 'Poppins', sans-serif; }
   max-height: 0;
   overflow: hidden;
   opacity: 0;
-  transition: max-height 0.4s ease, opacity 0.35s ease, padding 0.35s ease;
+  margin-top: 0;
+  transition: max-height 0.4s ease, opacity 0.35s ease, padding 0.35s ease, margin-top 0.35s ease;
 }
 
 @media (max-width: 1023px) {
@@ -159,7 +160,23 @@ h1, h2, h3, h4, h5 { font-family: 'Poppins', sans-serif; }
     max-height: 500px;
     opacity: 1;
     padding: 1.5rem;
+    margin-top: 0.5rem;
   }
+}
+
+/* Dim overlay */
+#menu-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0);
+  z-index: 999;
+  transition: background 0.35s ease;
+}
+
+#menu-overlay.active {
+  display: block;
+  background: rgba(0,0,0,0.45);
 }
 #mobile-menu .nav-link { color: var(--dark); font-size: 1rem; padding: 0.4rem 0; }
 
