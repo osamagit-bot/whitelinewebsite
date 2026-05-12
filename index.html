@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="White Line Educational Consulting Services — Professional guidance for scholarships, university admissions, visa support, and international exam preparation." />
+  <meta name="keywords" content="educational consulting, scholarship assistance, university admissions, visa support, TOEFL preparation, Afghanistan students" />
+  <meta name="author" content="White Line Educational Consulting Services Company" />
+  <meta property="og:title" content="White Line Educational Consulting Services" />
+  <meta property="og:description" content="Empowering students toward global educational success." />
+  <meta property="og:type" content="website" />
+  <title>White Line Educational Consulting Services</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary:   '#0A56B5',
+            cyan:      '#10B7F5',
+            bglight:   '#F8FBFF',
+            dark:      '#1B1B1B',
+            secondary: '#5E6B7A'
+          },
+          fontFamily: {
+            poppins: ['Poppins', 'sans-serif'],
+            inter:   ['Inter', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="font-inter bg-bglight text-dark">
+
+  <!-- =============================================
+       NAVBAR
+  ============================================= -->
+  <nav id="navbar" aria-label="Main navigation">
+    <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
+
+      <!-- Logo -->
+      <a href="#hero" class="flex items-center gap-3 no-underline">
+        <img src="images/WhatsApp Image 2026-05-11 at 2.47.03 PM.jpeg"
+             alt="White Line Logo"
+             class="rounded-xl object-contain"
+             style="width:64px; height:64px;"
+             id="navbar-logo" />
+        <div>
+          <span class="logo-text font-poppins font-bold text-white text-base leading-tight block"
+                style="transition: color 0.4s;">White Line</span>
+          <span class="logo-sub text-xs font-inter leading-tight block"
+                style="color:rgba(255,255,255,0.7); transition: color 0.4s;">Educational Consulting</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <div class="hidden lg:flex items-center gap-8">
+        <a href="#hero"       class="nav-link">Home</a>
+        <a href="#about"      class="nav-link">About Us</a>
+        <a href="#services"   class="nav-link">Services</a>
+        <a href="#objectives" class="nav-link">Objectives</a>
+        <a href="#gallery"    class="nav-link">Gallery</a>
+        <a href="#contact"    class="nav-link">Contact</a>
+      </div>
+
+      <!-- CTA + Hamburger -->
+      <div class="flex items-center gap-4">
+        <a href="#contact" class="nav-cta hidden lg:inline-block">Book Consultation</a>
+        <button id="hamburger" class="lg:hidden" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" role="navigation" aria-label="Mobile navigation">
+      <a href="#hero"       class="nav-link">Home</a>
+      <a href="#about"      class="nav-link">About Us</a>
+      <a href="#services"   class="nav-link">Services</a>
+      <a href="#objectives" class="nav-link">Objectives</a>
+      <a href="#gallery"    class="nav-link">Gallery</a>
+      <a href="#contact"    class="nav-link">Contact</a>
+      <a href="#contact"    class="btn-primary text-center mt-2">Book Consultation</a>
+    </div>
+  </nav>
+
+
+  <!-- =============================================
+       HERO SECTION
+  ============================================= -->
+  <section id="hero" aria-label="Hero">
+
+    <div class="max-w-7xl mx-auto px-6 py-36 grid lg:grid-cols-2 gap-16 items-center w-full relative z-10">
+
+      <!-- Left: Text -->
+      <div class="reveal-left">
+        <div class="section-tag" style="background:rgba(255,255,255,0.12); color:#fff; border-color:rgba(255,255,255,0.2);">
+          <i data-lucide="globe" class="inline w-4 h-4 mr-1"></i> Global Education Experts
+        </div>
+
+        <h1 class="font-poppins font-extrabold text-white mt-4 mb-6 leading-tight"
+            style="font-size: clamp(2rem, 5vw, 3.2rem);">
+          Empowering Students Toward<br />
+          <span style="color:#a8e6ff;">Global Educational Success</span>
+        </h1>
+
+        <p class="font-inter text-lg mb-8 leading-relaxed" style="color:rgba(255,255,255,0.8);">
+          Professional educational consulting, scholarship assistance, university admissions,
+          visa support, and international exam preparation — all in one place.
+        </p>
+
+        <div class="flex flex-wrap gap-4">
+          <a href="#contact" class="btn-primary" style="background:#fff; color:#0A56B5; font-weight:700;">Get Consultation</a>
+          <a href="#services" class="btn-outline">Explore Services</a>
+        </div>
+
+        <div class="flex flex-wrap gap-6 mt-10">
+          <div class="flex items-center gap-2" style="color:rgba(255,255,255,0.75);">
+            <i data-lucide="check-circle" class="w-4 h-4" style="color:#a8e6ff;"></i>
+            <span class="text-sm font-inter">Scholarship Guidance</span>
+          </div>
+          <div class="flex items-center gap-2" style="color:rgba(255,255,255,0.75);">
+            <i data-lucide="check-circle" class="w-4 h-4" style="color:#a8e6ff;"></i>
+            <span class="text-sm font-inter">Visa Support</span>
+          </div>
+          <div class="flex items-center gap-2" style="color:rgba(255,255,255,0.75);">
+            <i data-lucide="check-circle" class="w-4 h-4" style="color:#a8e6ff;"></i>
+            <span class="text-sm font-inter">TOEFL Preparation</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Clean graphic panel -->
+      <div class="reveal-right flex items-center justify-center mt-8 lg:mt-0">
+        <div class="hero-panel">
+          <!-- Central icon -->
+          <div class="hero-panel-icon">
+            <i data-lucide="graduation-cap" style="width:52px; height:52px; color:#0A56B5;"></i>
+          </div>
+
+          <!-- Stat items -->
+          <div class="hero-panel-stats">
+            <div class="hero-stat-item">
+              <i data-lucide="trophy" class="w-5 h-5" style="color:#0A56B5;"></i>
+              <div>
+                <div class="font-poppins font-bold text-dark text-sm">Scholarship Success</div>
+                <div class="font-inter text-xs text-secondary">Hundreds of students supported</div>
+              </div>
+            </div>
+            <div class="hero-stat-item">
+              <i data-lucide="globe" class="w-5 h-5" style="color:#0A56B5;"></i>
+              <div>
+                <div class="font-poppins font-bold text-dark text-sm">International Admissions</div>
+                <div class="font-inter text-xs text-secondary">Globally recognized universities</div>
+              </div>
+            </div>
+            <div class="hero-stat-item">
+              <i data-lucide="pencil-line" class="w-5 h-5" style="color:#0A56B5;"></i>
+              <div>
+                <div class="font-poppins font-bold text-dark text-sm">Exam Preparation</div>
+                <div class="font-inter text-xs text-secondary">TOEFL, IELTS, GRE & more</div>
+              </div>
+            </div>
+            <div class="hero-stat-item">
+              <i data-lucide="monitor-play" class="w-5 h-5" style="color:#0A56B5;"></i>
+              <div>
+                <div class="font-poppins font-bold text-dark text-sm">Online Learning</div>
+                <div class="font-inter text-xs text-secondary">Accessible for all students</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Wave divider -->
+    <div style="position:absolute; bottom:0; left:0; right:0; line-height:0;">
+      <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+           style="display:block; width:100%; height:60px;">
+        <path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#F8FBFF"/>
+      </svg>
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       ABOUT US SECTION
+  ============================================= -->
+  <section id="about" class="py-24 bg-bglight" aria-label="About Us">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <!-- Header -->
+      <div class="text-center mb-16 reveal">
+        <div class="section-tag">
+          <i data-lucide="building-2" class="inline w-4 h-4 mr-1"></i> Who We Are
+        </div>
+        <h2 class="section-title mt-3">About <span class="gradient-text">White Line</span></h2>
+        <p class="mt-4 text-secondary font-inter text-lg max-w-2xl mx-auto leading-relaxed">
+          A professional educational consulting organization dedicated to helping students achieve their global academic goals.
+        </p>
+      </div>
+
+      <!-- Two Column Layout -->
+      <div class="grid lg:grid-cols-2 gap-12 items-start mb-16">
+
+        <!-- Left: Visual Panel -->
+        <div class="reveal-left">
+          <div class="rounded-3xl p-8 text-white relative overflow-hidden"
+               style="background: linear-gradient(135deg, #0A56B5 0%, #10B7F5 100%);">
+            <div class="relative z-10">
+              <i data-lucide="graduation-cap" class="w-12 h-12 text-white mb-4"></i>
+              <h3 class="font-poppins font-bold text-xl mb-3">White Line Educational Consulting</h3>
+              <p class="font-inter text-sm leading-relaxed" style="color:rgba(255,255,255,0.85);">
+                Established September 25, 2023 — empowering students through education, opportunity, and guidance.
+              </p>
+              <div class="grid grid-cols-2 gap-3 mt-6">
+                <div class="rounded-xl p-3 text-center" style="background:rgba(255,255,255,0.15);">
+                  <div class="font-poppins font-bold text-xl">2023</div>
+                  <div class="text-xs mt-1" style="color:rgba(255,255,255,0.8);">Established</div>
+                </div>
+                <div class="rounded-xl p-3 text-center" style="background:rgba(255,255,255,0.15);">
+                  <div class="font-poppins font-bold text-xl">100+</div>
+                  <div class="text-xs mt-1" style="color:rgba(255,255,255,0.8);">Students Trained</div>
+                </div>
+                <div class="rounded-xl p-3 text-center" style="background:rgba(255,255,255,0.15);">
+                  <div class="flex justify-center mb-1"><i data-lucide="trophy" class="w-5 h-5 text-white"></i></div>
+                  <div class="text-xs" style="color:rgba(255,255,255,0.8);">Scholarship Success</div>
+                </div>
+                <div class="rounded-xl p-3 text-center" style="background:rgba(255,255,255,0.15);">
+                  <div class="flex justify-center mb-1"><i data-lucide="globe" class="w-5 h-5 text-white"></i></div>
+                  <div class="text-xs" style="color:rgba(255,255,255,0.8);">Intl. Admissions</div>
+                </div>
+              </div>
+              <!-- Trusted badge — inside card, no absolute positioning -->
+              <div class="mt-6 flex items-center gap-3 rounded-xl px-4 py-3"
+                   style="background:rgba(255,255,255,0.15);">
+                <i data-lucide="check-circle" class="w-5 h-5 text-white flex-shrink-0"></i>
+                <div>
+                  <div class="font-poppins font-bold text-sm text-white">Trusted Consulting</div>
+                  <div class="font-inter text-xs" style="color:rgba(255,255,255,0.75);">Globally Recognized</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Text Content -->
+        <div class="reveal-right">
+          <div class="section-tag">
+            <i data-lucide="book-open" class="inline w-4 h-4 mr-1"></i> Our Story
+          </div>
+          <h3 class="font-poppins font-bold text-2xl mt-3 mb-5 text-dark">
+            Dedicated to Your <span class="gradient-text">Academic Success</span>
+          </h3>
+          <div class="space-y-4 font-inter text-secondary leading-relaxed about-text">
+            <p>White Line Educational Consulting Services Company is a professional educational consulting and training organization <strong class="text-dark">established on September 25, 2023</strong>. We are dedicated to supporting students in achieving their academic and international education goals through high-quality guidance, training, and counseling services.</p>
+            <p>Our company specializes in a wide range of educational services, including <strong class="text-dark">academic consulting, scholarship application assistance, university admissions guidance, visa process support,</strong> and exam preparation programs. We work closely with students to help them successfully navigate every step of their academic journey, from application to admission and beyond.</p>
+            <p>We provide specialized <strong class="text-dark">English language training courses, including TOEFL preparation classes</strong>, designed to equip students with the skills and confidence needed to succeed in international English proficiency exams. We also offer structured <strong class="text-dark">online classes for female students in Afghanistan</strong> who are unable to attend physical classes, ensuring equal access to quality education.</p>
+            <p>Since our establishment, White Line has successfully supported numerous students in securing scholarships at <strong class="text-dark">reputable international universities</strong> and obtaining admissions from globally recognized institutions. Our training programs have prepared hundreds of students for <strong class="text-dark">TOEFL, IELTS, Duolingo English Test, GRE,</strong> and other internationally recognized exams.</p>
+          </div>
+          <div class="mt-6 p-5 rounded-xl border-l-4 font-inter"
+               style="background:rgba(10,86,181,0.05); border-color:#0A56B5;">
+            <p class="text-primary font-semibold text-sm flex items-center gap-2">
+              <i data-lucide="target" class="w-4 h-4"></i> Our Mission
+            </p>
+            <p class="text-dark mt-1 font-medium" style="text-align:justify;">"To empower students through education, opportunity, and guidance — helping them build a brighter academic and professional future."</p>
+          </div>
+          <a href="#services" class="btn-primary mt-8 inline-block">Explore Our Services</a>
+        </div>
+      </div>
+
+      <!-- Stat Cards -->
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <!-- Card 1: Blue bg -->
+        <div class="stat-card stat-card-blue reveal" style="transition-delay:0.1s;">
+          <div class="stat-icon stat-icon-white"><i data-lucide="calendar" class="w-6 h-6"></i></div>
+          <div class="font-poppins font-bold text-2xl">2023</div>
+          <div class="font-inter text-sm mt-1" style="opacity:0.8;">Established</div>
+        </div>
+
+        <!-- Card 2: White bg -->
+        <div class="stat-card reveal" style="transition-delay:0.2s;">
+          <div class="stat-icon"><i data-lucide="users" class="w-6 h-6 text-white"></i></div>
+          <div class="font-poppins font-bold text-2xl text-dark">100+</div>
+          <div class="font-inter text-sm text-secondary mt-1">Students Trained</div>
+        </div>
+
+        <!-- Card 3: White bg -->
+        <div class="stat-card reveal" style="transition-delay:0.3s;">
+          <div class="stat-icon"><i data-lucide="trophy" class="w-6 h-6 text-white"></i></div>
+          <div class="font-poppins font-bold text-2xl text-dark">Many</div>
+          <div class="font-inter text-sm text-secondary mt-1">Scholarship Wins</div>
+        </div>
+
+        <!-- Card 4: Blue bg -->
+        <div class="stat-card stat-card-blue reveal" style="transition-delay:0.4s;">
+          <div class="stat-icon stat-icon-white"><i data-lucide="globe" class="w-6 h-6"></i></div>
+          <div class="font-poppins font-bold text-2xl">Global</div>
+          <div class="font-inter text-sm mt-1" style="opacity:0.8;">Admissions Support</div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="gradient-divider" />
+
+
+  <!-- =============================================
+       SERVICES SECTION
+  ============================================= -->
+  <section id="services" class="py-24" style="background:#fff;" aria-label="Services">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <!-- Header -->
+      <div class="text-center mb-16 reveal">
+        <div class="section-tag">
+          <i data-lucide="layout-grid" class="inline w-4 h-4 mr-1"></i> Our Services
+        </div>
+        <h2 class="section-title mt-3">What We <span class="gradient-text">Offer</span></h2>
+        <p class="mt-4 text-secondary font-inter text-lg max-w-2xl mx-auto leading-relaxed">
+          At White Line, we provide a wide range of educational consulting and training services designed to support students in achieving their academic and international study goals.
+        </p>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <div class="service-card reveal" style="transition-delay:0.05s;">
+          <div class="service-card-img">
+            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&q=80" alt="Educational Consulting" loading="lazy" />
+          </div>
+          <div class="service-card-body">
+            <div class="service-icon">
+              <i data-lucide="graduation-cap" class="w-7 h-7" style="color:#0A56B5;"></i>
+            </div>
+            <h3 class="font-poppins font-semibold text-dark text-lg mb-2">Educational Consulting</h3>
+            <p class="font-inter text-secondary text-sm leading-relaxed">
+              We guide students in selecting suitable academic paths, universities, and programs based on their goals, qualifications, and future aspirations.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-card reveal" style="transition-delay:0.1s;">
+          <div class="service-card-img">
+            <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&q=80" alt="Scholarship Assistance" loading="lazy" />
+          </div>
+          <div class="service-card-body">
+            <div class="service-icon">
+              <i data-lucide="award" class="w-7 h-7" style="color:#0A56B5;"></i>
+            </div>
+            <h3 class="font-poppins font-semibold text-dark text-lg mb-2">Scholarship Assistance</h3>
+            <p class="font-inter text-secondary text-sm leading-relaxed">
+              We help students identify and apply for international scholarship opportunities and support them throughout the application process to increase their chances of success.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-card reveal" style="transition-delay:0.15s;">
+          <div class="service-card-img">
+            <img src="https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?w=600&q=80" alt="University Admission Guidance" loading="lazy" />
+          </div>
+          <div class="service-card-body">
+            <div class="service-icon">
+              <i data-lucide="building-2" class="w-7 h-7" style="color:#0A56B5;"></i>
+            </div>
+            <h3 class="font-poppins font-semibold text-dark text-lg mb-2">University Admission Guidance</h3>
+            <p class="font-inter text-secondary text-sm leading-relaxed">
+              Our team provides step-by-step assistance for obtaining admission to reputable international universities, including document preparation and application support.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-card reveal" style="transition-delay:0.2s;">
+          <div class="service-card-img">
+            <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&q=80" alt="Visa Application Support" loading="lazy" />
+          </div>
+          <div class="service-card-body">
+            <div class="service-icon">
+              <i data-lucide="file-check" class="w-7 h-7" style="color:#0A56B5;"></i>
+            </div>
+            <h3 class="font-poppins font-semibold text-dark text-lg mb-2">Visa Application Support</h3>
+            <p class="font-inter text-secondary text-sm leading-relaxed">
+              We assist students in preparing and organizing their visa applications, ensuring all required documents and procedures are properly completed.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-card reveal" style="transition-delay:0.25s;">
+          <div class="service-card-img">
+            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&q=80" alt="English Language Training" loading="lazy" />
+          </div>
+          <div class="service-card-body">
+            <div class="service-icon">
+              <i data-lucide="languages" class="w-7 h-7" style="color:#0A56B5;"></i>
+            </div>
+            <h3 class="font-poppins font-semibold text-dark text-lg mb-2">English Language Training</h3>
+            <p class="font-inter text-secondary text-sm leading-relaxed">
+              We offer structured English language courses to improve students' reading, writing, listening, and speaking skills for academic and professional use.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-card reveal" style="transition-delay:0.3s;">
+          <div class="service-card-img">
+            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&q=80" alt="TOEFL Preparation Courses" loading="lazy" />
+          </div>
+          <div class="service-card-body">
+            <div class="service-icon">
+              <i data-lucide="pencil-line" class="w-7 h-7" style="color:#0A56B5;"></i>
+            </div>
+            <h3 class="font-poppins font-semibold text-dark text-lg mb-2">TOEFL Preparation Courses</h3>
+            <p class="font-inter text-secondary text-sm leading-relaxed">
+              We provide specialized TOEFL preparation classes designed to help students achieve their target scores through focused training, practice tests, and exam strategies.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-card reveal" style="transition-delay:0.35s;">
+          <div class="service-card-img">
+            <img src="https://images.unsplash.com/photo-1588702547919-26089e690ecc?w=600&q=80" alt="Online Learning Programs" loading="lazy" />
+          </div>
+          <div class="service-card-body">
+            <div class="service-icon">
+              <i data-lucide="monitor-play" class="w-7 h-7" style="color:#0A56B5;"></i>
+            </div>
+            <h3 class="font-poppins font-semibold text-dark text-lg mb-2">Online Learning Programs</h3>
+            <p class="font-inter text-secondary text-sm leading-relaxed">
+              We offer online classes for students, especially for female students in Afghanistan who cannot attend physical classes, ensuring accessible and flexible education for everyone.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-card reveal" style="transition-delay:0.4s;">
+          <div class="service-card-img">
+            <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=600&q=80" alt="International Exam Preparation" loading="lazy" />
+          </div>
+          <div class="service-card-body">
+            <div class="service-icon">
+              <i data-lucide="clipboard-list" class="w-7 h-7" style="color:#0A56B5;"></i>
+            </div>
+            <h3 class="font-poppins font-semibold text-dark text-lg mb-2">International Exam Preparation</h3>
+            <p class="font-inter text-secondary text-sm leading-relaxed">
+              We prepare students for globally recognized exams such as TOEFL, IELTS, Duolingo English Test, GRE, and others, helping them achieve competitive scores.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <hr class="gradient-divider" />
+
+  <!-- =============================================
+       OBJECTIVES SECTION
+  ============================================= -->
+  <section id="objectives" class="py-24 bg-bglight" aria-label="Objectives">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <!-- Header -->
+      <div class="text-center mb-16 reveal">
+        <div class="section-tag">
+          <i data-lucide="target" class="inline w-4 h-4 mr-1"></i> Our Objectives
+        </div>
+        <h2 class="section-title mt-3">What We <span class="gradient-text">Stand For</span></h2>
+        <p class="mt-4 text-secondary font-inter text-lg max-w-2xl mx-auto leading-relaxed">
+          Every objective we pursue is rooted in one core belief — every student deserves access to world-class education and the opportunity to succeed globally.
+        </p>
+      </div>
+
+      <!-- Objectives Grid: two columns of cards -->
+      <div class="grid sm:grid-cols-2 lg:grid-cols-2 gap-5">
+
+        <div class="objective-card reveal" style="transition-delay:0.05s;">
+          <div class="obj-num">01</div>
+          <div>
+            <div class="obj-title">
+              <i data-lucide="plane" class="w-4 h-4" style="color:#0A56B5;"></i>
+              <h3 class="font-poppins font-semibold text-dark text-sm">Support Students Pursuing Higher Education Abroad</h3>
+            </div>
+            <p class="font-inter text-secondary text-sm leading-relaxed">To support and guide students who aspire to continue their higher education in foreign countries by providing professional educational consulting and academic planning services.</p>
+          </div>
+        </div>
+
+        <div class="objective-card reveal" style="transition-delay:0.1s;">
+          <div class="obj-num">02</div>
+          <div>
+            <div class="obj-title">
+              <i data-lucide="award" class="w-4 h-4" style="color:#0A56B5;"></i>
+              <h3 class="font-poppins font-semibold text-dark text-sm">Help Students Secure International Scholarships</h3>
+            </div>
+            <p class="font-inter text-secondary text-sm leading-relaxed">To assist students in identifying and applying for international scholarship opportunities and to increase their chances of obtaining fully funded and partially funded scholarships.</p>
+          </div>
+        </div>
+
+        <div class="objective-card reveal" style="transition-delay:0.15s;">
+          <div class="obj-num">03</div>
+          <div>
+            <div class="obj-title">
+              <i data-lucide="languages" class="w-4 h-4" style="color:#0A56B5;"></i>
+              <h3 class="font-poppins font-semibold text-dark text-sm">Provide High-Quality English Language Training</h3>
+            </div>
+            <p class="font-inter text-secondary text-sm leading-relaxed">To provide high-quality English language training programs that improve students' academic and communication skills for international education and professional success.</p>
+          </div>
+        </div>
+
+        <div class="objective-card reveal" style="transition-delay:0.2s;">
+          <div class="obj-num">04</div>
+          <div>
+            <div class="obj-title">
+              <i data-lucide="pencil-line" class="w-4 h-4" style="color:#0A56B5;"></i>
+              <h3 class="font-poppins font-semibold text-dark text-sm">Prepare Students for TOEFL, IELTS, GRE &amp; Duolingo</h3>
+            </div>
+            <p class="font-inter text-secondary text-sm leading-relaxed">To prepare students for internationally recognized examinations such as TOEFL, IELTS, Duolingo English Test, GRE, and other standardized tests through effective training and exam preparation programs.</p>
+          </div>
+        </div>
+
+        <div class="objective-card reveal" style="transition-delay:0.25s;">
+          <div class="obj-num">05</div>
+          <div>
+            <div class="obj-title">
+              <i data-lucide="clipboard-check" class="w-4 h-4" style="color:#0A56B5;"></i>
+              <h3 class="font-poppins font-semibold text-dark text-sm">Support Exam Bookings and Academic Procedures</h3>
+            </div>
+            <p class="font-inter text-secondary text-sm leading-relaxed">To support students financially and administratively in booking TOEFL and other international examinations whenever possible.</p>
+          </div>
+        </div>
+
+        <div class="objective-card reveal" style="transition-delay:0.3s;">
+          <div class="obj-num">06</div>
+          <div>
+            <div class="obj-title">
+              <i data-lucide="tag" class="w-4 h-4" style="color:#0A56B5;"></i>
+              <h3 class="font-poppins font-semibold text-dark text-sm">Provide Affordable Learning Opportunities</h3>
+            </div>
+            <p class="font-inter text-secondary text-sm leading-relaxed">To facilitate access to educational opportunities by providing exam fee discounts, voucher support, and affordable learning services for deserving students.</p>
+          </div>
+        </div>
+
+        <div class="objective-card reveal" style="transition-delay:0.35s;">
+          <div class="obj-num">07</div>
+          <div>
+            <div class="obj-title">
+              <i data-lucide="monitor-play" class="w-4 h-4" style="color:#0A56B5;"></i>
+              <h3 class="font-poppins font-semibold text-dark text-sm">Offer Accessible Online Learning for Afghan Students</h3>
+            </div>
+            <p class="font-inter text-secondary text-sm leading-relaxed">To create accessible online learning opportunities, especially for students in Afghanistan, including female students who may face limitations in attending physical classes.</p>
+          </div>
+        </div>
+
+        <div class="objective-card reveal" style="transition-delay:0.4s;">
+          <div class="obj-num">08</div>
+          <div>
+            <div class="obj-title">
+              <i data-lucide="globe" class="w-4 h-4" style="color:#0A56B5;"></i>
+              <h3 class="font-poppins font-semibold text-dark text-sm">Empower Afghan Students Through Global Opportunities</h3>
+            </div>
+            <p class="font-inter text-secondary text-sm leading-relaxed">To empower Afghan students to achieve their academic and career goals by connecting them with global educational opportunities and international institutions.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom highlight banner -->
+      <div class="mt-14 rounded-2xl p-8 text-white text-center reveal"
+           style="background: linear-gradient(135deg, #0A56B5 0%, #10B7F5 100%);">
+        <div class="relative z-10">
+          <i data-lucide="star" class="w-10 h-10 mx-auto mb-4" style="color:rgba(255,255,255,0.9);"></i>
+          <h3 class="font-poppins font-bold text-2xl md:text-3xl mb-3">Our Core Commitment</h3>
+          <p class="font-inter text-lg max-w-2xl mx-auto" style="color:rgba(255,255,255,0.85);">
+            Every student who walks through our doors — physically or virtually — deserves the same level of dedication, expertise, and care in their educational journey.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="gradient-divider" />
+
+  <!-- =============================================
+       GALLERY SECTION
+  ============================================= -->
+  <section id="gallery" class="py-24" style="background:#fff;" aria-label="Gallery">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <!-- Header -->
+      <div class="text-center mb-16 reveal">
+        <div class="section-tag">
+          <i data-lucide="image" class="inline w-4 h-4 mr-1"></i> Our Gallery
+        </div>
+        <h2 class="section-title mt-3">Moments That <span class="gradient-text">Inspire</span></h2>
+        <p class="mt-4 text-secondary font-inter text-lg max-w-2xl mx-auto leading-relaxed">
+          A glimpse into our classes, consultations, student achievements, and the community we are building together.
+        </p>
+      </div>
+
+      <!-- Gallery Filter Tabs -->
+      <div class="gallery-filter-bar reveal">
+        <button class="gallery-tab active-tab" data-filter="all">
+          <i data-lucide="layout-grid" class="w-4 h-4"></i>
+          <span>All</span>
+        </button>
+        <button class="gallery-tab" data-filter="consulting">
+          <i data-lucide="graduation-cap" class="w-4 h-4"></i>
+          <span>Consulting</span>
+        </button>
+        <button class="gallery-tab" data-filter="training">
+          <i data-lucide="book-open" class="w-4 h-4"></i>
+          <span>Training</span>
+        </button>
+        <button class="gallery-tab" data-filter="achievements">
+          <i data-lucide="trophy" class="w-4 h-4"></i>
+          <span>Achievements</span>
+        </button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4" id="gallery-grid">
+
+        <div class="gallery-item consulting reveal" style="transition-delay:0.05s;">
+          <div class="gallery-card">
+            <img src="images/WhatsApp Image 2026-05-11 at 2.47.04 PM.jpeg" alt="TOEFL Training Class" loading="lazy" />
+            <div class="gallery-overlay"><span>TOEFL Training Class</span></div>
+          </div>
+        </div>
+
+        <div class="gallery-item achievements reveal" style="transition-delay:0.1s;">
+          <div class="gallery-card">
+            <img src="images/WhatsApp Image 2026-05-11 at 2.47.04 PM (1).jpeg" alt="Scholarship Winners" loading="lazy" />
+            <div class="gallery-overlay"><span>Scholarship Winners</span></div>
+          </div>
+        </div>
+
+        <div class="gallery-item consulting reveal" style="transition-delay:0.15s;">
+          <div class="gallery-card">
+            <img src="images/WhatsApp Image 2026-05-11 at 2.47.04 PM (2).jpeg" alt="Admission Guidance" loading="lazy" />
+            <div class="gallery-overlay"><span>Admission Guidance</span></div>
+          </div>
+        </div>
+
+        <div class="gallery-item training reveal" style="transition-delay:0.2s;">
+          <div class="gallery-card">
+            <img src="images/WhatsApp Image 2026-05-11 at 2.47.04 PM (3).jpeg" alt="Online Learning Session" loading="lazy" />
+            <div class="gallery-overlay"><span>Online Learning Session</span></div>
+          </div>
+        </div>
+
+        <div class="gallery-item achievements reveal" style="transition-delay:0.25s;">
+          <div class="gallery-card">
+            <img src="images/WhatsApp Image 2026-05-11 at 2.47.04 PM (4).jpeg" alt="Certificate Ceremony" loading="lazy" />
+            <div class="gallery-overlay"><span>Certificate Ceremony</span></div>
+          </div>
+        </div>
+
+        <div class="gallery-item consulting reveal" style="transition-delay:0.3s;">
+          <div class="gallery-card">
+            <img src="images/WhatsApp Image 2026-05-11 at 2.47.04 PM (5).jpeg" alt="Visa Consultation" loading="lazy" />
+            <div class="gallery-overlay"><span>Visa Consultation</span></div>
+          </div>
+        </div>
+
+        <div class="gallery-item training reveal" style="transition-delay:0.35s;">
+          <div class="gallery-card">
+            <img src="images/WhatsApp Image 2026-05-11 at 2.47.05 PM.jpeg" alt="English Language Class" loading="lazy" />
+            <div class="gallery-overlay"><span>English Language Class</span></div>
+          </div>
+        </div>
+
+        <div class="gallery-item achievements reveal" style="transition-delay:0.4s;">
+          <div class="gallery-card">
+            <img src="images/WhatsApp Image 2026-05-11 at 2.47.05 PM (1).jpeg" alt="Student Achievement" loading="lazy" />
+            <div class="gallery-overlay"><span>Student Achievement</span></div>
+          </div>
+        </div>
+
+        <div class="gallery-item training reveal" style="transition-delay:0.45s;">
+          <div class="gallery-card">
+            <img src="images/WhatsApp Image 2026-05-11 at 2.47.05 PM (2).jpeg" alt="Training Session" loading="lazy" />
+            <div class="gallery-overlay"><span>Training Session</span></div>
+          </div>
+        </div>
+
+        <div class="gallery-item consulting reveal" style="transition-delay:0.5s;">
+          <div class="gallery-card">
+            <img src="images/WhatsApp Image 2026-05-11 at 2.47.05 PM (3).jpeg" alt="Consulting Session" loading="lazy" />
+            <div class="gallery-overlay"><span>Consulting Session</span></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Upload note removed — real photos now in use -->
+
+    </div>
+  </section>
+
+  <hr class="gradient-divider" />
+
+  <!-- =============================================
+       CTA SECTION
+  ============================================= -->
+  <section id="cta-section" class="py-24" aria-label="Call to Action"
+           style="position:relative; overflow:hidden;">
+
+    <!-- Fixed parallax background image -->
+    <div style="position:absolute; inset:0; background-image:url('images/education image.webp'); background-size:cover; background-position:center; background-attachment:fixed; z-index:0;"></div>
+
+    <!-- Blue gradient overlay -->
+    <div style="position:absolute; inset:0; background:linear-gradient(135deg, rgba(5,40,90,0.75) 0%, rgba(10,86,181,0.72) 50%, rgba(8,60,130,0.75) 100%); z-index:1;"></div>
+
+    <div class="max-w-7xl mx-auto px-6 relative z-10">
+      <div class="rounded-3xl px-8 py-16 md:px-16 md:py-20 text-center text-white relative overflow-hidden">
+
+        <!-- Content -->
+        <div class="relative z-10">
+
+          <!-- Icon -->
+          <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl mb-6"
+               style="background:rgba(255,255,255,0.15);">
+            <i data-lucide="rocket" class="w-8 h-8 text-white"></i>
+          </div>
+
+          <h2 class="font-poppins font-extrabold mb-4 leading-tight"
+              style="font-size: clamp(1.8rem, 4vw, 3rem);">
+            Start Your International Education<br class="hidden md:block" /> Journey Today
+          </h2>
+
+          <p class="font-inter text-lg max-w-2xl mx-auto mb-10 leading-relaxed"
+             style="color:rgba(255,255,255,0.85);">
+            Professional guidance for scholarships, admissions, visas, and international exam success.
+          </p>
+
+          <!-- CTA Buttons -->
+          <div class="flex flex-wrap justify-center gap-4 mb-12">
+            <a href="#contact" class="btn-primary"
+               style="background:#fff; color:#0A56B5; font-weight:700; font-size:1rem; padding:0.85rem 2.5rem;">
+              <span class="flex items-center gap-2">
+                <i data-lucide="mail" class="w-5 h-5"></i> Contact Us
+              </span>
+            </a>
+            <a href="#services" class="btn-outline"
+               style="font-size:1rem; padding:0.85rem 2.5rem;">
+              <span class="flex items-center gap-2">
+                <i data-lucide="layout-grid" class="w-5 h-5"></i> View Services
+              </span>
+            </a>
+          </div>
+
+          <!-- Trust indicators -->
+          <div class="flex flex-wrap justify-center gap-8">
+            <div class="flex items-center gap-2" style="color:rgba(255,255,255,0.85);">
+              <i data-lucide="shield-check" class="w-5 h-5" style="color:#a8e6ff;"></i>
+              <span class="font-inter text-sm font-medium">Trusted by Students</span>
+            </div>
+            <div class="flex items-center gap-2" style="color:rgba(255,255,255,0.85);">
+              <i data-lucide="globe" class="w-5 h-5" style="color:#a8e6ff;"></i>
+              <span class="font-inter text-sm font-medium">International Reach</span>
+            </div>
+            <div class="flex items-center gap-2" style="color:rgba(255,255,255,0.85);">
+              <i data-lucide="graduation-cap" class="w-5 h-5" style="color:#a8e6ff;"></i>
+              <span class="font-inter text-sm font-medium">Expert Consultants</span>
+            </div>
+            <div class="flex items-center gap-2" style="color:rgba(255,255,255,0.85);">
+              <i data-lucide="clock" class="w-5 h-5" style="color:#a8e6ff;"></i>
+              <span class="font-inter text-sm font-medium">Fast Response</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="gradient-divider" />
+
+  <!-- =============================================
+       CONTACT SECTION
+  ============================================= -->
+  <section id="contact" class="py-24" style="background:#fff;" aria-label="Contact">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <!-- Header -->
+      <div class="text-center mb-16 reveal">
+        <div class="section-tag">
+          <i data-lucide="mail" class="inline w-4 h-4 mr-1"></i> Get In Touch
+        </div>
+        <h2 class="section-title mt-3">Contact <span class="gradient-text">Us</span></h2>
+        <p class="mt-4 text-secondary font-inter text-lg max-w-2xl mx-auto leading-relaxed">
+          Ready to start your journey? Reach out to us and our team will get back to you promptly.
+        </p>
+      </div>
+
+      <!-- Single unified card -->
+      <div class="reveal rounded-2xl overflow-hidden flex flex-col lg:flex-row" style="background: linear-gradient(135deg, #0A56B5 0%, #0c63cc 60%, #10B7F5 100%);">
+
+        <!-- Left: Contact Info -->
+        <div class="flex-1 px-8 py-10 flex flex-col justify-between">
+          <div>
+            <div class="inline-flex items-center justify-center w-12 h-12 rounded-xl mb-4" style="background:rgba(255,255,255,0.15);">
+              <i data-lucide="headphones" class="w-6 h-6 text-white"></i>
+            </div>
+            <h3 class="font-poppins font-bold text-2xl text-white">Get In Touch</h3>
+            <p class="font-inter text-sm mt-1 mb-8" style="color:rgba(255,255,255,0.75);">We're here to help. Reach out through any channel below.</p>
+
+            <div class="space-y-5">
+              <a href="tel:+93771010121" class="flex items-center gap-4" style="text-decoration:none;">
+                <div class="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0" style="background:rgba(255,255,255,0.15);">
+                  <i data-lucide="phone" class="w-5 h-5 text-white"></i>
+                </div>
+                <div>
+                  <p class="font-poppins font-semibold text-white text-xs uppercase tracking-wide" style="opacity:0.7;">Phone</p>
+                  <p class="font-inter text-white font-medium">+93 771 010 121</p>
+                </div>
+              </a>
+
+              <a href="https://wa.me/93780699161" target="_blank" rel="noopener" class="flex items-center gap-4" style="text-decoration:none;">
+                <div class="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0" style="background:rgba(255,255,255,0.15);">
+                  <i data-lucide="message-circle" class="w-5 h-5 text-white"></i>
+                </div>
+                <div>
+                  <p class="font-poppins font-semibold text-white text-xs uppercase tracking-wide" style="opacity:0.7;">WhatsApp</p>
+                  <p class="font-inter text-white font-medium">+93 780 699 161</p>
+                </div>
+              </a>
+
+              <a href="mailto:info@whitelinecs.com" class="flex items-center gap-4" style="text-decoration:none;">
+                <div class="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0" style="background:rgba(255,255,255,0.15);">
+                  <i data-lucide="mail" class="w-5 h-5 text-white"></i>
+                </div>
+                <div>
+                  <p class="font-poppins font-semibold text-white text-xs uppercase tracking-wide" style="opacity:0.7;">Email</p>
+                  <p class="font-inter text-white font-medium">info@whitelinecs.com</p>
+                  <p class="font-inter text-sm" style="color:rgba(255,255,255,0.65);">faisalnasrat1010@gmail.com</p>
+                </div>
+              </a>
+
+              <div class="flex items-center gap-4">
+                <div class="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0" style="background:rgba(255,255,255,0.15);">
+                  <i data-lucide="map-pin" class="w-5 h-5 text-white"></i>
+                </div>
+                <div>
+                  <p class="font-poppins font-semibold text-white text-xs uppercase tracking-wide" style="opacity:0.7;">Address</p>
+                  <p class="font-inter text-white font-medium">12th Street, Qalae Fatullah, Kabul</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Office hours -->
+          <div class="mt-8 pt-6" style="border-top:1px solid rgba(255,255,255,0.15);">
+            <div class="flex items-center gap-2 mb-3">
+              <i data-lucide="clock" class="w-4 h-4 text-white" style="opacity:0.8;"></i>
+              <p class="font-poppins font-semibold text-white text-sm">Office Hours</p>
+            </div>
+            <div class="flex justify-between font-inter text-sm" style="color:rgba(255,255,255,0.8);">
+              <span>Saturday – Thursday</span>
+              <span class="font-medium text-white">8:00 AM – 5:00 PM</span>
+            </div>
+            <div class="flex justify-between font-inter text-sm mt-1" style="color:rgba(255,255,255,0.8);">
+              <span>Friday</span>
+              <span class="font-medium text-white">Closed</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Divider -->
+        <div class="hidden lg:block w-px" style="background:rgba(255,255,255,0.2);"></div>
+        <div class="lg:hidden h-px mx-8" style="background:rgba(255,255,255,0.2);"></div>
+
+        <!-- Right: CTA -->
+        <div class="flex-1 px-8 py-10 flex flex-col justify-between">
+          <div>
+            <div class="inline-flex items-center justify-center w-12 h-12 rounded-xl mb-4" style="background:rgba(255,255,255,0.15);">
+              <i data-lucide="map-pin" class="w-6 h-6 text-white"></i>
+            </div>
+            <h3 class="font-poppins font-bold text-2xl text-white mb-3">Visit or Reach Us</h3>
+            <p class="font-inter leading-relaxed mb-8" style="color:rgba(255,255,255,0.8);">
+              We are based in Kabul, Afghanistan and serve students globally. Contact us via phone, email, or WhatsApp and our team will respond promptly.
+            </p>
+            <div class="space-y-3">
+              <div class="flex items-center gap-3 font-inter text-sm" style="color:rgba(255,255,255,0.9);">
+                <i data-lucide="check-circle" class="w-5 h-5" style="color:#a8e6ff;"></i>
+                Free initial consultation
+              </div>
+              <div class="flex items-center gap-3 font-inter text-sm" style="color:rgba(255,255,255,0.9);">
+                <i data-lucide="check-circle" class="w-5 h-5" style="color:#a8e6ff;"></i>
+                Fast response within 24 hours
+              </div>
+              <div class="flex items-center gap-3 font-inter text-sm" style="color:rgba(255,255,255,0.9);">
+                <i data-lucide="check-circle" class="w-5 h-5" style="color:#a8e6ff;"></i>
+                Online sessions available
+              </div>
+            </div>
+          </div>
+          <div class="mt-8">
+            <a href="https://wa.me/93780699161" target="_blank" rel="noopener"
+               class="btn-primary flex items-center justify-center gap-2"
+               style="background:#fff; color:#0A56B5; font-weight:700; padding:0.85rem 2rem;">
+              <i data-lucide="message-circle" class="w-5 h-5"></i> Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <hr class="gradient-divider" />
+
+  <!-- =============================================
+       FOOTER
+  ============================================= -->
+  <footer aria-label="Footer">
+    <div class="max-w-7xl mx-auto px-6 py-16">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+
+        <!-- Col 1: Brand -->
+        <div class="lg:col-span-1">
+          <a href="#hero" class="flex items-center gap-3 mb-5 no-underline">
+            <img src="images/WhatsApp Image 2026-05-11 at 2.47.03 PM.jpeg"
+                 alt="White Line Logo"
+                 class="rounded-xl object-contain"
+                 style="width:64px; height:64px;" />
+            <div>
+              <span class="font-poppins font-bold text-white text-base leading-tight block">White Line</span>
+              <span class="text-xs font-inter leading-tight block" style="color:rgba(255,255,255,0.5);">Educational Consulting</span>
+            </div>
+          </a>
+          <p class="font-inter text-sm leading-relaxed mb-6" style="color:rgba(255,255,255,0.55);">
+            Empowering students toward global educational success through expert consulting, scholarship guidance, and exam preparation.
+          </p>
+          <!-- Social Icons -->
+          <div class="flex gap-3 mt-2">
+            <a href="#" target="_blank" rel="noopener" aria-label="Facebook" class="social-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+            </a>
+            <a href="#" target="_blank" rel="noopener" aria-label="Instagram" class="social-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+              </svg>
+            </a>
+            <a href="#" target="_blank" rel="noopener" aria-label="YouTube" class="social-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/>
+                <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#0d1b2e"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div>
+          <h4 class="font-poppins font-semibold text-white text-base mb-5 flex items-center gap-2">
+            <i data-lucide="link" class="w-4 h-4" style="color:#10B7F5;"></i> Quick Links
+          </h4>
+          <nav aria-label="Footer quick links">
+            <a href="#hero"       class="footer-link">Home</a>
+            <a href="#about"      class="footer-link">About Us</a>
+            <a href="#services"   class="footer-link">Services</a>
+            <a href="#objectives" class="footer-link">Objectives</a>
+            <a href="#contact"    class="footer-link">Contact Us</a>
+          </nav>
+        </div>
+
+        <!-- Col 3: Services -->
+        <div>
+          <h4 class="font-poppins font-semibold text-white text-base mb-5 flex items-center gap-2">
+            <i data-lucide="layout-grid" class="w-4 h-4" style="color:#10B7F5;"></i> Our Services
+          </h4>
+          <nav aria-label="Footer services links">
+            <a href="#services" class="footer-link">Educational Consulting</a>
+            <a href="#services" class="footer-link">Scholarship Assistance</a>
+            <a href="#services" class="footer-link">University Admissions</a>
+            <a href="#services" class="footer-link">Visa Application Support</a>
+            <a href="#services" class="footer-link">TOEFL Preparation</a>
+            <a href="#services" class="footer-link">Online Learning</a>
+          </nav>
+        </div>
+
+        <!-- Col 4: Contact Info -->
+        <div>
+          <h4 class="font-poppins font-semibold text-white text-base mb-5 flex items-center gap-2">
+            <i data-lucide="map-pin" class="w-4 h-4" style="color:#10B7F5;"></i> Contact Info
+          </h4>
+          <div class="space-y-4">
+            <div class="flex items-start gap-3">
+              <i data-lucide="map-pin" class="w-4 h-4 mt-0.5 flex-shrink-0" style="color:#10B7F5;"></i>
+              <span class="font-inter text-sm" style="color:rgba(255,255,255,0.6);">12th Street, Qalae Fatullah, Kabul, Afghanistan</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <i data-lucide="phone" class="w-4 h-4 flex-shrink-0" style="color:#10B7F5;"></i>
+              <a href="tel:+93771010121" class="font-inter text-sm hover:text-cyan transition-colors"
+                 style="color:rgba(255,255,255,0.6);">+93 771 010 121</a>
+            </div>
+            <div class="flex items-center gap-3">
+              <i data-lucide="mail" class="w-4 h-4 flex-shrink-0" style="color:#10B7F5;"></i>
+              <a href="mailto:info@whitelinecs.com" class="font-inter text-sm hover:text-cyan transition-colors"
+                 style="color:rgba(255,255,255,0.6);">info@whitelinecs.com</a>
+            </div>
+            <div class="flex items-center gap-3">
+              <i data-lucide="message-circle" class="w-4 h-4 flex-shrink-0" style="color:#10B7F5;"></i>
+              <a href="https://wa.me/93780699161" target="_blank" rel="noopener"
+                 class="font-inter text-sm hover:text-cyan transition-colors"
+                 style="color:rgba(255,255,255,0.6);">+93 780 699 161</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div style="border-top: 1px solid rgba(255,255,255,0.07);">
+      <div class="max-w-7xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <p class="font-inter text-sm" style="color:rgba(255,255,255,0.4);">
+          &copy; 2024 White Line Educational Consulting Services Company. All rights reserved.
+        </p>
+        <div class="flex items-center gap-4">
+          <div class="flex items-center gap-2 font-inter text-sm" style="color:rgba(255,255,255,0.4);">
+            <i data-lucide="shield-check" class="w-4 h-4" style="color:#10B7F5;"></i>
+            Trusted Educational Consulting
+          </div>
+          <a href="#hero" class="inline-flex items-center gap-2 font-inter text-sm font-medium px-4 py-2 rounded-lg transition-all"
+             style="background:rgba(255,255,255,0.08); color:rgba(255,255,255,0.75); border:1px solid rgba(255,255,255,0.12);">
+            <i data-lucide="arrow-up" class="w-4 h-4"></i> Back to Top
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- script.js -->
+  <script src="script.js"></script>
+</body>
+</html>
