@@ -726,8 +726,8 @@
   <section id="cta-section" class="py-24" aria-label="Call to Action"
            style="position:relative; overflow:hidden;">
 
-    <!-- Fixed parallax background image -->
-    <div style="position:absolute; inset:0; background-image:url('images/education image.webp'); background-size:cover; background-position:center; background-attachment:fixed; z-index:0;"></div>
+    <!-- Background image -->
+    <div style="position:absolute; inset:0; background-image:url('images/education image.webp'); background-size:cover; background-position:center; z-index:0;"></div>
 
     <!-- Blue gradient overlay -->
     <div style="position:absolute; inset:0; background:linear-gradient(135deg, rgba(5,40,90,0.75) 0%, rgba(10,86,181,0.72) 50%, rgba(8,60,130,0.75) 100%); z-index:1;"></div>
@@ -756,14 +756,13 @@
 
           <!-- CTA Buttons -->
           <div class="flex flex-wrap justify-center gap-4 mb-12">
-            <a href="#contact" class="btn-primary"
-               style="background:#fff; color:#0A56B5; font-weight:700; font-size:1rem; padding:0.85rem 2.5rem;">
+            <a href="#contact" class="btn-primary cta-btn"
+               style="background:#fff; color:#0A56B5; font-weight:700;">
               <span class="flex items-center gap-2">
                 <i data-lucide="mail" class="w-5 h-5"></i> Contact Us
               </span>
             </a>
-            <a href="#services" class="btn-outline"
-               style="font-size:1rem; padding:0.85rem 2.5rem;">
+            <a href="#services" class="btn-outline cta-btn">
               <span class="flex items-center gap-2">
                 <i data-lucide="layout-grid" class="w-5 h-5"></i> View Services
               </span>
@@ -771,7 +770,7 @@
           </div>
 
           <!-- Trust indicators -->
-          <div class="flex flex-wrap justify-center gap-8">
+          <div class="flex flex-wrap justify-center gap-x-6 gap-y-3">
             <div class="flex items-center gap-2" style="color:rgba(255,255,255,0.85);">
               <i data-lucide="shield-check" class="w-5 h-5" style="color:#a8e6ff;"></i>
               <span class="font-inter text-sm font-medium">Trusted by Students</span>
