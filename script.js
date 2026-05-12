@@ -58,7 +58,12 @@ mobileMenu.querySelectorAll('a').forEach(link => {
 });
 
 
-// ── Scroll Reveal Animation ──
+// ── Back to Top ──
+const backToTop = document.getElementById('back-to-top');
+window.addEventListener('scroll', () => {
+  backToTop.classList.toggle('visible', window.scrollY > 400);
+});
+
 const revealObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {

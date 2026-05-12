@@ -804,3 +804,45 @@ footer {
 .gallery-item.hidden-item {
   display: none;
 }
+
+/* ── Floating Back to Top ── */
+#back-to-top {
+  position: fixed;
+  bottom: 1.75rem;
+  right: 1.75rem;
+  z-index: 999;
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--primary), var(--cyan));
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(10,86,181,0.35);
+  text-decoration: none;
+  opacity: 0;
+  transform: translateY(16px);
+  pointer-events: none;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+#back-to-top.visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+#back-to-top:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(10,86,181,0.45);
+}
+
+@media (max-width: 480px) {
+  #back-to-top {
+    bottom: 1.25rem;
+    right: 1.25rem;
+    width: 42px;
+    height: 42px;
+  }
+}
